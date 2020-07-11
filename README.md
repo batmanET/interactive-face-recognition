@@ -15,7 +15,7 @@ Run install.exe
 If the above dowsn't work, copy contents of install.ps1 and enter them in powershell
 
 # Run
-## Activate the environment by running: 
+## Activate the environment: 
 In cmd, run the following:  
 <openvino_directory>\bin\setupvars.bat  
 For example- C:\Program Files (x86)\IntelSWTools\openvino\bin\setupvars.bat
