@@ -11,15 +11,15 @@ This app demonstrates following functionalitites:
 6.	Face Re-identification
 
 # Installation
-Run install.exe
+Run install.exe 
 If the above dowsn't work, copy contents of install.ps1 and enter them in powershell
 
 # Run
 ## Activate the environment by running: 
-In cmd, run the following
-<openvino_directory>\bin\setupvars.bat
+In cmd, run the following: 
+<openvino_directory>\bin\setupvars.bat 
 For example- C:\Program Files (x86)\IntelSWTools\openvino\bin\setupvars.bat
 
 ## Run application
-python interactive_face_recognition.py -i "<input_path>"
+python interactive_face_recognition.py -i "<input_path>" 
 -i arguement is optional, webcam is used by default
