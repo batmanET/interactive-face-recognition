@@ -1,5 +1,5 @@
 # Introduction 
-This is a demo showcasing models from OpenVINO falling under the bucket of Interactive Face Recognition 
+This app consists of a number of detection functionalities to infer information from videos.
 
 # Functionalities
 This app demonstrates following functionalitites:
@@ -10,6 +10,16 @@ This app demonstrates following functionalitites:
 5.	Emotion Detection
 6.	Face Re-identification
 
-# Run
-python interactive_face_recognition.py -i "<input_path>"
+# Installation
+Run install.exe
+If the above dowsn't work, copy contents of install.ps1 and enter them in powershell
 
+# Run
+## Activate the environment by running: 
+In cmd, run the following
+<openvino_directory>\bin\setupvars.bat
+For example- C:\Program Files (x86)\IntelSWTools\openvino\bin\setupvars.bat
+
+## Run application
+python interactive_face_recognition.py -i "<input_path>"
+-i arguement is optional, webcam is used by default
